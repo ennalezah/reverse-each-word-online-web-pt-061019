@@ -1,6 +1,7 @@
 def reverse_each_word(sentence)
-  arr_sentence = sentence.split(' ')
+  reverse_sentence = []
   
-  arr_sentence.each {}
+  arr_sentence = sentence.split(' ')
+  arr_sentence.each {|word}
   
 end
