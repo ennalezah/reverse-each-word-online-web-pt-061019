@@ -5,6 +5,6 @@ def reverse_each_word(sentence)
   print arr_sentence
 end
 
-sentence = ""
+sentence = "Hello there, and how are you?"
 
 puts reverse_each_word(sentence)
