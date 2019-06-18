@@ -3,7 +3,7 @@ def reverse_each_word(sentence)
   arr_sentence = sentence.split(' ')
   
   arr_sentence.each {|word| reversed << word.reverse}
-  print reversed.join(' ')
+  reversed.join(' ')
 end
 
 # def reverse_each_word(sentence)
