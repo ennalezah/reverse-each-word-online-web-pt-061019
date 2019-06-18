@@ -9,5 +9,5 @@ end
 def reverse_each_word(sentence)
   arr_sentence = sentence.split(' ')
   reversed = arr_sentence.collect {|word| word.reverse}
-  print reversed.join(' ')
+  reversed.join(' ')
 end
