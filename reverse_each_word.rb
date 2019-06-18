@@ -14,4 +14,5 @@ def reverse_each_word(sentence)
   print reversed.join(' ')
 end
 
-sentence = 
+sentence = "Hello there, and how are you?"
+print reverse_each_word(sentence)
