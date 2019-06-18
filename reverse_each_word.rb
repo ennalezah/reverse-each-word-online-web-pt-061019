@@ -6,10 +6,10 @@ def reverse_each_word(sentence)
   reversed.join(' ')
 end
 
-# def reverse_each_word(sentence)
-#   arr_sentence = sentence.split(' ')
+def reverse_each_word(sentence)
+  arr_sentence = sentence.split(' ')
   
-#   reversed = arr_sentence.collect {|word| word.reverse}
+  reversed = arr_sentence.collect {|word| word.reverse}
   
-#   print reversed.join(' ')
-# end
+  print reversed.join(' ')
+end
