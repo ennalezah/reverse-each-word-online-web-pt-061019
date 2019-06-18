@@ -16,7 +16,7 @@ def reverse_each_word(sentence)
   arr_sentence = sentence.split(' ')
   
   arr_sentence.each {|word| reversed_arr << word.reverse!}
-  print reversed_arr
+  print reversed_arr.join(' ')
 end
 
 sentence = "Hello there, and how are you?"
